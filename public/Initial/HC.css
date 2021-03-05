@@ -1,0 +1,70 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: transparent;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+
+}
+
+.bg-image {
+
+  background-image: url("Images/Image1.jpeg");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 40px;
+  text-align: center;
+}
+
+div.background {
+  background: center / contain no-repeat url("Images/Image1.jpeg");
+  background-size: 100% 100%;
+  }
+
+div.transbox {
+  margin: 30px;
+  background-color: transparent;
+  height: 150em;
+  width: 100em;
+
+
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color:white;
+  font-weight: bolder;
+  padding: 20px;
+
+}
+
+.radiobtn {
+  height: 2em;
+}
